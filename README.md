@@ -20,7 +20,7 @@ API REST construída com **Express** + **TypeScript** + **MySQL**.
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/back.git
+git clone https://github.com/NanaAlex/back.git
 cd back
 
 # Instale as dependências
