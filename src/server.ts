@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import authRoutes from './routes/authRoutes';
 import alunosRoutes from './routes/alunosRoutes';
 import chamadasRoutes from './routes/chamadasRoutes';
+import turmasRoutes from './routes/turmasRoutes';
 
 dotenv.config();
 
@@ -14,6 +15,7 @@ app.use(cors());
 app.use(express.json());
 app.use('/alunos', alunosRoutes);
 app.use('/chamadas', chamadasRoutes);
+app.use('/turmas', turmasRoutes);
 
 app.get('/', (req, res) => {
   res.json({ message: 'API is running 🚀' });
