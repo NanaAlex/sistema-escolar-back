@@ -2,6 +2,9 @@
 
 API REST construída com **Express** + **TypeScript** + **MySQL**.
 
+# Relatório Jira e Diagramas
+https://drive.google.com/drive/folders/11swJExn4jfPuFHDg00saQOlSUQaMkUy3?usp=drive_link
+
 ## Tecnologias
 
 - [TypeScript](https://www.typescriptlang.org/)
